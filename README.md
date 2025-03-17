@@ -53,7 +53,7 @@ SELECT  `Date of Admission`,
     AVG(`Billing Amount`) OVER (ORDER BY `Date of Admission` ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) AS Moving_Avg
 FROM healthcare.healthcare_dataset; ```
 
-### Findings
+##Findings
 The following are the findings from the  health-Care -Dataset:
 
 1. LTD Smith Hospital has the highest number of admissions with 34 patients, followed by PLC Smith hospital with 30 patients.
